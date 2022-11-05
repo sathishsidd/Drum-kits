@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2d9cfbf68b.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Drum Kit</h1>
+        <div class="drum_set">
+            <button class="drum w">w</button>
+            <button class="drum a">a</button>
+            <button class="drum s">s</button>
+            <button class="drum d">d</button>
+            <button class="drum j">j</button>
+            <button class="drum k">k</button>
+            <button class="drum l">l</button>
+        </div>
+        <div class="volume__control">
+            <i class="fa-solid fa-volume-high fa-2x"></i>
+            <input type="range" id="volume__slider" min="0" max="100">
+        </div>
+        <div class="util__buttons">
+            <button id="util__button-auto">Start Auto Music</button>
+            <button id="util__button-theme">Change Theme</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
